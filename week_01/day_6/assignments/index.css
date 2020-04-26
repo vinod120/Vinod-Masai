@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    border: 1px solid red;
+}
+#menu_image{
+    padding-left: 20px;
+    float: left;
+    margin-left: 10px;
+}
+#menu_image img{
+    max-width: 120px;
+}
+#student_name{
+    float: right;
+    padding: 20px;
+}
+#student_name a{
+    text-decoration: none;
+    color: #757575;
+}
+#student_name a:hover{
+    color: #4E342E;
+    font-family: Semi-bold 600;
+}
+#lectures_logo, #letures_heading, #quiz_logo, #quiz_heading, #tracker_logo, #tracker_heading, #typing_heading, #typing_logo, #attendance_logo, #attendance_heading, #assignments_heading, #assignments_logo{
+    float: left;
+    padding: 8px;
+}
+.left{
+    float: left;
+    border: 1px solid green;
+    width: 25%;
+    background-color: rgb(14, 12, 39);
+}
+.lectures > a:hover, .quizzes > a:hover, .assignments > a:hover, .tracker > a:hover, .attendance > a:hover, .typing > a:hover{
+    color: red;
+}
+.right{
+    margin-left: 20px;
+    float: left;
+    border: 1px solid green;
+    width: 72%;
+}
+.left > div{
+    border: 1px solid red;
+    padding: 10px;
+    margin-top: 10px;
+}
+.left  div {
+    color: rgb(41, 52, 160);
+}
+#attendance, #assignments_completed, #assignments_unlocked{
+    float: left;
+    border: 1px solid red;
+    width: 30%;
+}
+
+.bottom_left, .bottom_right{
+    float: left;
+    width: 45%;
+    border: 1px dotted green;
+}
+.clear{
+    clear: both;
+}

@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    margin: 120px;
+    padding: 10px;
+}
+.masai_logo  img{
+    /* border: 1px solid black; */
+    width: 220px;
+    height: 70px;
+    padding: 10px;
+}
+a{
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    color: #3E2723;
+    /* border: 1px solid green; */
+}
